@@ -1,3 +1,4 @@
+/* Hér er header CSS */
 header {
     background-color: rgb(250, 235, 218);
     display: flex;
@@ -23,7 +24,7 @@ header {
     padding-top: 10px;
     padding-right: 10px;
 }
-
+/*  */
 body {
     background: linear-gradient(to top left, #5a0909, #735050);
     font-family: Atkinson Hyperlegible;
@@ -81,7 +82,7 @@ video {
 
 
 
-.section1 {
+.section-um-mig {
     display: flex;
     gap: 20px;
 }
@@ -91,6 +92,13 @@ img {
     padding: 10px;
 }
 
+.innihald-köku {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Hér er footer content CSS */
 footer {
     background-color: #2b0202;
     color: azure;
@@ -120,8 +128,3 @@ footer {
     opacity: 0.7;
 }
 
-.innihald-köku {
-    display: flex;
-    padding: 10px;
-    gap: 10px;
-}
