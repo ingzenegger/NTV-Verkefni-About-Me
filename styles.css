@@ -3,6 +3,7 @@ header {
     background-color: rgb(250, 235, 218);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border: #2b0202;
     border-radius: 5px;
@@ -10,27 +11,22 @@ header {
 }
 
 #icon {
-    height: 30px;
-}
 
+    padding-left: 10px;
+}
 
 .nav {
     display: flex;
     gap: 10px;
-
-}
-
-.nav a {
-    padding-top: 10px;
     padding-right: 10px;
+
 }
+
 /*  */
 body {
     background: linear-gradient(to top left, #5a0909, #735050);
     font-family: Atkinson Hyperlegible;
     Arial;
-
-
 }
 
 a:hover {
@@ -49,8 +45,6 @@ video {
 
 }
 
-
-
 #profile {
     border-radius: 30px 0 30px 0;
     height: 200px;
@@ -60,16 +54,13 @@ video {
     background-color: antiquewhite;
     padding: 10px;
     border-radius: 10px;
-
 }
 
 .áhugamál {
-
     padding: 10px;
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .stopmotion {
@@ -78,9 +69,6 @@ video {
     margin: 20px;
     justify-content: space-evenly;
 }
-
-
-
 
 .section-um-mig {
     display: flex;
@@ -98,6 +86,11 @@ img {
     gap: 10px;
 }
 
+.form {
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
 /* Hér er footer content CSS */
 footer {
     background-color: #2b0202;
@@ -107,13 +100,10 @@ footer {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-
 }
 
 .footer-right {
     display: flex;
-
-
 }
 
 .fa {
@@ -127,4 +117,3 @@ footer {
 .fa:hover {
     opacity: 0.7;
 }
-
