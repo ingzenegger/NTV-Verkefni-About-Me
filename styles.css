@@ -10,11 +10,6 @@ header {
 
 }
 
-#icon {
-
-    padding-left: 10px;
-}
-
 .nav {
     display: flex;
     gap: 10px;
@@ -22,7 +17,7 @@ header {
 
 }
 
-/*  */
+/* CSS í main */
 body {
     background: linear-gradient(to top left, #5a0909, #735050);
     font-family: Atkinson Hyperlegible;
@@ -37,17 +32,29 @@ a {
     color: rgb(99, 153, 45);
 }
 
-video {
-    border: #2b0202;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-
+.section-um-mig {
+    display: flex;
+    gap: 20px;
 }
 
 #profile {
     border-radius: 30px 0 30px 0;
     height: 200px;
+
+}
+
+img {
+    border-radius: 30px 0 30px 0;
+    padding: 10px;
+}
+
+video {
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #735050;
+    border-radius: 5px;
+
 }
 
 .áhugamál-section {
@@ -56,40 +63,84 @@ video {
     border-radius: 10px;
 }
 
-.áhugamál {
+.div-áhugamál {
     padding: 10px;
     margin: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.stopmotion {
+.div-stopmotion {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     margin: 20px;
     justify-content: space-evenly;
 }
 
-.section-um-mig {
-    display: flex;
-    gap: 20px;
-}
-
-img {
-    border-radius: 30px 0 30px 0;
+.section-uppskrift {
+    align-content: flex-start;
     padding: 10px;
+    margin: 10px;
 }
 
-.innihald-köku {
+th {
+    padding: 0 5px;
+}
+
+td {
+    padding: 0 5px;
+}
+
+.div-innihald-köku {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     gap: 10px;
+    justify-content: space-between;
 }
 
-.form {
+.aðferð {
+    height: 200px;
+    width: 400px;
+    flex-grow: 1;
+
+}
+
+.div-kökukrem {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    align-content: flex-start;
+
+}
+
+.section-form {
     background-color: antiquewhite;
     border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
 }
+
+.div-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-myndir {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rós {
+    max-height: 150px;
+    max-width: 150px;
+}
+
 
 /* Hér er footer content CSS */
 footer {
