@@ -20,8 +20,7 @@ header {
 /* CSS í main */
 body {
     background: linear-gradient(to top left, #5a0909, #735050);
-    font-family: Atkinson Hyperlegible;
-    Arial;
+    font-family: Atkinson Hyperlegible, Arial;
 }
 
 a:hover {
